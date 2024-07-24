@@ -1,0 +1,17 @@
+{
+  "name": "remotion-kit-demo",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "remotion preview src/index.tsx",
+    "build": "remotion render src/index.tsx ImageAnimations out/video.mp4"
+  },
+  "dependencies": {
+    "remotion-kit": "^0.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.177"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.177"
+  }
+}
