@@ -50,6 +50,7 @@ const DemoComposition: React.FC = () => {
           <Sequence
             from={index * durationInFrames}
             durationInFrames={durationInFrames}
+            key={index}
           >
             {sequence.type === "element" ? (
               <AnimatedElement
